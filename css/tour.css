@@ -1,0 +1,159 @@
+.tour {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+  background-color: skyblue;
+}
+
+.tour-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.tour-header {
+  position: relative;
+}
+
+.tour-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.tour-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.tour-main {
+  position: relative;
+  padding: 25px 0;
+}
+
+.tour-cotegory {
+  position: relative;
+  display: flex;
+  /* 가운데 */
+  justify-content: center;
+}
+
+.tour-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.tour-list li {
+  position: relative;
+}
+
+.tour-cate-bt {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-weight: 400;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+  font: size 1.4rem;
+}
+
+.tour-cate-bt-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+.tour-slide-wrap {
+  position: relative;
+  height: 355px;
+  margin-top: 23px;
+  background-color: pink;
+}
+
+.tour-slide-item {
+  position: relative;
+  height: 355px;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.tour-slide-item-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tour-slide-item-img {
+  position: relative;
+  width: 100%;
+  height: 244px;
+  overflow: hidden;
+}
+
+.tour-slide-item-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-slide-item-info {
+  position: relative;
+  height: calc(100% - 244px);
+  padding: 23px 20px;
+  background-color: yellow;
+}
+
+
+
+.tour-good-list{
+  position:relative;
+}
+
+.tour-good-list li{
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tour-good-city{
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 700px;
+  color: blue;
+}
+
+
+.tour-good-city-hotel{
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 700px;
+  color:#000;
+}
+
+.tour-good-city-price{
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 1000px;
+  color:#000;
+  
+}
+
+.tour-footer {
+  position: relative;
+}

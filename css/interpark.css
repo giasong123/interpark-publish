@@ -1,0 +1,32 @@
+.interpark {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+  background-color: rgb(235, 135, 213);
+}
+
+.interpark-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.interpark-header {
+  position: relative;
+  /* 이미지랑 span일때 */
+  text-align: center;
+}
+
+.interpark-header img {
+  position: relative;
+  width: auto;
+  height: 4rem;
+}
+
+.interpark-main {
+  position: relative;
+}
+
+.interpark-footer {
+  position: relative;
+}
